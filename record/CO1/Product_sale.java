@@ -11,10 +11,8 @@ class Product
 		System.out.println("Enter the pcode");
 		pcode=in.nextInt();
 		System.out.print("Enter the pname");
-		in.skip("[\r\n]+");
-		pname=in.nextLine();
+		pname=in.next();
 		System.out.print("Enter the price");
-		in.skip("[\r\n]+");
 		price=in.nextInt();
 	}
 	
